@@ -1,0 +1,493 @@
+
+
+.rectangle{
+    
+  width: 1130px;
+  height: 404px;
+  margin: 52px 123px 40px 150px;
+  border: solid gray;
+  background-color: white;
+
+}
+
+.map{
+  height: '100vh';
+   width: '100%' ;
+}
+
+.buttoncolor{
+  width: 213px;
+  height: 33px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: darkslateblue;
+  border: none;
+  background: none;
+ 
+}
+.clickbuttongallery{
+    width: 242px;
+    height: 57px;
+    padding: 13px 13px 12px 16px;
+    opacity: 0.8;
+    border-radius: 3px;
+    background-color: white;
+    position: absolute;
+    top: 460px;
+    left: 65%;
+
+
+}
+
+.title1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: darkslateblue;
+    position: absolute;
+    margin-bottom: 15px;
+    margin-left: 9%;
+    
+}
+
+
+.title2{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: darkslateblue;
+    position: absolute;
+    margin-bottom: 15px;
+    margin-left: -2%;
+
+}
+
+.title3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: darkslateblue;
+    position: absolute;
+    float: left;
+    margin-top: 26%;
+
+}
+
+.title4{
+    font-family: Poppins;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: rgba(71, 61, 139, 0.842);
+    position: absolute;
+    float: left;
+    margin-top: 50%;
+
+}
+.title5{
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: darkslateblue;
+    position: absolute;
+    margin-bottom: 36px;
+   float: left;
+    margin-top: 80%;
+
+}
+.title6{
+    font-family: Poppins;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: rgba(71, 61, 139, 0.842);
+    position: absolute;
+    margin-bottom: 36px;
+   float: left;
+    margin-top: 105%;
+
+}
+
+.title7{
+    font-family: Poppins;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: rgba(71, 61, 139, 0.842);
+    position: absolute;
+    margin-bottom: 36px;
+   float: left;
+    margin-top: 125%;
+
+}
+
+.title8{
+  font-family: Poppins;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: rgba(71, 61, 139, 0.842);
+  position: absolute;
+  margin-bottom: 36px;
+ float: left;
+  margin-top: 170%;
+
+}
+
+
+
+
+
+
+
+
+.sub_title1{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: darkslateblue;
+    position: absolute;
+    margin-bottom: 15px;
+    margin-left: -2%;
+
+}
+.sub_title2{
+    font-family: Poppins;
+    font-size: 15px;
+    letter-spacing: normal;
+    color: rgba(71, 61, 139, 0.842);
+    position: absolute;
+    margin-bottom: 36px;
+    margin-left: -2%;
+    margin-top: 22%;
+
+}
+
+.sub_title3{
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: normal;
+    color: rgba(71, 61, 139, 0.842);
+    position: absolute;
+    margin-bottom: 36px;
+    margin-left: -2%;
+    margin-top: 43%;
+}
+.sub_title4{
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: normal;
+    color: rgba(71, 61, 139, 0.842);
+    position: absolute;
+    margin-bottom: 36px;
+    margin-left: -2%;
+    margin-top: 66%;
+}
+
+
+
+
+
+
+
+
+
+
+.nbar{
+    position: relative;
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 8%
+}
+
+
+.placeorderbuttonbox{
+    width: 223px;
+    height: 50px;
+    margin: 22px 123px 27.5px 606px;
+    padding: 13px 23px 12px 32px;
+    border-radius: 6px;
+    background-color: red;
+    margin-left: 70%;
+    margin-top: -5%;
+    position: relative;
+    display: inline-block;
+
+
+}
+.Place-Online-Order{
+    width: 168px; 
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    background: none;
+    text-decoration: none;
+
+
+}
+.Overview{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: darkslateblue;
+  border: none;
+  background: none;
+
+}
+
+.move{
+    display: inline-block;
+    position: relative;
+    margin-left: 20%;
+
+}
+.lview{
+   padding-left: 5%;
+   
+}
+
+a:hover{
+    border-bottom: solid 4px red;
+
+}
+
+.item-model-select {
+    margin: 0 0 53px;
+    padding: 23.5px 10.5px 87.4px 9.5px;
+    background-color: white;
+  }
+
+  .The-Big-Chill-Cakery {
+    width: 239px;
+    height: 33px;
+    margin: 11.5px 114px 44px 18.5px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color:darkslateblue;
+  }
+
+  .Rectangle-3348 {
+    width: 92px;
+    height: 92px;
+    margin: 3px 28.5px 48.6px 10px;
+    border-radius: 4px;
+    background-color: darkslateblue;
+    float: right;
+  }
+
+  .add-button {
+    position: absolute;
+    bottom: -10px;
+    left: 95%;
+}
+
+.Rectangle-3352 {
+  height: 80px;
+  padding: 15px 23px 15px 33px;
+  background-color: #f5f8ff;
+}
+  .Subtotal {
+    width: 96px;
+    height: 31px;
+    margin: 8px 41px 11px 0;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #292c40;
+  }
+
+  .Paynow{
+      float: right;
+  }
+
+  .Web-1920-28 {
+    width: 420px;
+    height: 500px;
+    padding: 23.5px 0 0;
+    background-color: white;
+  }
+
+  .cart-manage{
+    width: 100%;
+    height: 80%;
+    
+  }
+  .cart-item-mange{
+    margin-top: 10%;
+  }
+
+
+
+@media screen and (max-width: 600px) {
+
+
+
+.rectangle{
+    
+    width: 613px;
+    height: 404px;
+    margin: 18px 100px 40px 11px;
+    border: solid gray;
+    background-color: white;
+  
+  }
+
+  img{
+      width: 100%;
+  }
+
+  .nbar{
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+
+
+.rectangle{
+    width: 853px;
+    height: 404px;
+    margin: 20px 135px 80px 12px;
+    border: solid gray;
+    background-color: white
+  
+  }
+
+  .title1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: darkslateblue;
+    position: absolute;
+    margin-bottom: 15px;
+    margin-left: 2%;
+    margin-top: -5%;
+    
+}
+
+
+.nbar {
+    position: relative;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.placeorderbuttonbox {
+    width: 223px;
+    height: 50px;
+    margin: 22px 123px 27.5px 606px;
+    padding: 13px 23px 12px 32px;
+    border-radius: 6px;
+    background-color: red;
+    margin-left: 70%;
+    margin-top: -9%;
+    position: relative;
+    display: inline-block;
+}
+
+
+.clickbuttongallery {
+    width: 242px;
+    height: 57px;
+    padding: 13px 13px 12px 16px;
+    opacity: 0.8;
+    border-radius: 3px;
+    background-color: white;
+    position: absolute;
+    top: 427px;
+   margin-left: 70%;
+}
+
+  
+
+}
+
+
+
+@keyframes customEnterOverlayAnimation {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes customLeaveOverlayAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  
+  @keyframes customEnterModalAnimation {
+    0% {
+      transform: scale(0.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes customLeaveModalAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.2);
+    }
+  }
