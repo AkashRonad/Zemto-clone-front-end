@@ -63,7 +63,7 @@ class Details extends React.Component {
 
         axios({
             method: 'GET',
-            url: `http://localhost:8900/restaurant/${restaurant_id}`,
+            url: `https://zomoto-clone-backend-code-api.herokuapp.com/restaurant/${restaurant_id}`,
             headers: { 'Content-Type': 'application/json' },
         }).then(response => {
             this.setState({ restaurants: response.data.restaurant, restaurant_id: restaurant_id })
@@ -77,7 +77,7 @@ class Details extends React.Component {
         console.log("hello");
         axios({
             method: 'GET',
-            url: `http://localhost:8900/restaurant/${restaurant_id}`,
+            url: `https://zomoto-clone-backend-code-api.herokuapp.com/restaurant/${restaurant_id}`,
             headers: { 'Content-Type': 'application/json' }
         }).then(response => {
             this.setState({ items: response.data.restaurant, itemModalIsOpen: true })
@@ -214,7 +214,7 @@ class Details extends React.Component {
 
     getData = (data) => {
 
-        return fetch(`http://localhost:8900/payment`, {
+        return fetch(`https://zomoto-clone-backend-code-api.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
