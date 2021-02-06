@@ -63,7 +63,7 @@ class Details extends React.Component {
 
         axios({
             method: 'GET',
-            url: `https://zomoto-clone-backend-code-api.herokuapp.com/restaurant/${restaurant_id}`,
+            url: `http://localhost:8900/restaurant/${restaurant_id}`,
             headers: { 'Content-Type': 'application/json' },
         }).then(response => {
             this.setState({ restaurants: response.data.restaurant, restaurant_id: restaurant_id })
@@ -77,7 +77,7 @@ class Details extends React.Component {
         console.log("hello");
         axios({
             method: 'GET',
-            url: `https://zomoto-clone-backend-code-api.herokuapp.com/restaurant/${restaurant_id}`,
+            url: `http://localhost:8900/restaurant/${restaurant_id}`,
             headers: { 'Content-Type': 'application/json' }
         }).then(response => {
             this.setState({ items: response.data.restaurant, itemModalIsOpen: true })
@@ -214,7 +214,7 @@ class Details extends React.Component {
 
     getData = (data) => {
 
-        return fetch(`https://zomoto-clone-backend-code-api.herokuapp.com/payment`, {
+        return fetch(`http://localhost:8900/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
@@ -288,9 +288,7 @@ class Details extends React.Component {
                                         <div className="title6">&#8377; <span>{restaurants.min_price}</span></div>
                                         <div className="title7">Rating : <Rating {...this.props} initialRating={Number(restaurants.aggregate_rating)}
                                             readonly /></div>
-                                        <div className="title8">
-                                            <button className="btn btn-success btn-sm " onClick={() => this.handleLocation()}><i class="fa fa-location-arrow" aria-hidden="true"></i>Location Fatch</button>
-                                        </div>
+                    
                                     </div>
 
                                     <div id="menu1" className="container tab-pane fade">

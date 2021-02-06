@@ -157,7 +157,7 @@
       height: 123px;
       border-radius: 50%;
       position: absolute;
-      top: 10%;
+      top: 32%;
       margin-left: 38%;
       margin-right: 40%;
       font-family: Poppins;
@@ -176,6 +176,15 @@
       margin: 2% 0px;
       top: 73px !important;
     }
+
+    #notebooks {
+      position: absolute;
+      left: 91%;
+      width: 347px;
+      border-radius: 5px;
+      max-height: 445px;
+    }
+    
   }
   
   @media only screen and (min-width: 600px) and (max-width: 1150px) {
