@@ -18,7 +18,7 @@ class Home extends React.Component {
     componentDidMount() {
         axios({
             method: 'GET',
-            url: 'http://localhost:8900/location',
+            url: 'https://zomoto-clone-backend-code-api.herokuapp.com/location',
             headers: { 'Content-type': 'application/json' }
         }).then(response => {
             this.setState({ locations: response.data.Locations })
@@ -27,7 +27,7 @@ class Home extends React.Component {
 
         axios({
             method: 'GET',
-            url: 'http://localhost:8900/mealType',
+            url: 'https://zomoto-clone-backend-code-api.herokuapp.com/mealType',
             headers: { 'Content-Type': 'application/json' }
         }).then(response => {
             this.setState({ mealtypes: response.data.mealtypes })
