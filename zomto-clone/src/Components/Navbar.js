@@ -79,7 +79,7 @@ class NavBar extends React.Component {
 
             axios({
                 method: 'POST',
-                url: 'http://localhost:8900/login',
+                url: 'https://zomoto-clone-backend-code-api.herokuapp.com/login',
                 headers: { 'Content-Type': 'application/json' },
                 data: obj
             }).then(response => {
@@ -126,7 +126,7 @@ class NavBar extends React.Component {
 
             axios({
                 method: 'POST',
-                url: 'http://localhost:8900/register',
+                url: 'https://zomoto-clone-backend-code-api.herokuapp.com/register',
                 headers: { 'Content-Type': 'application/json' },
                 data: obj
             }).then(response => {
