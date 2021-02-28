@@ -20,6 +20,7 @@ class Wallpaper extends React.Component {
 
     collectLocation=(event)=>{
         const L_Id = event.target.value;
+		console.log(L_Id);
         sessionStorage.setItem('locationId',L_Id);
 
         axios({
